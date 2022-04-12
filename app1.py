@@ -40,6 +40,9 @@ def main():
     if st.button('Predict'):
         pred=model.predict([[p1,p2,p3,p4,p5,p6]])
         st.success('Your Insurance Cost is {}'  .format(pred[0]))
+    
+    if st.checkbox("By"):
+        st.success("Shailendra Singh......")
         
   
 
